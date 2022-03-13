@@ -1,4 +1,4 @@
-# Tidy The House UP
+# Tidy The House Up
 
 ## 💡 Inspiration
 Cleaning the house and staying organized is much easier with a little help. Tidy The House Up is an easy and gratifying way to keep you motivated while cleaning the house. With this project you can plan your cleaning activities, track progress, and share done tasks with community. For each task completed, you will receive points which can be transformed into rewards at the end of the week.
@@ -47,6 +47,6 @@ We are using **Hedera’s testnet** to make a decentralized chatroom. Hedera is 
 - Deploying web app on GitHub Pages.
 - Efficient use of GitHub actions.
 
-## 🚀 What's next for Tidy The House UP
+## 🚀 What's next for Tidy The House Up
 
 - Building a mobile app
