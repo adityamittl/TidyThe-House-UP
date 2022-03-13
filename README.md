@@ -25,9 +25,14 @@ Make your routine more manageable with tasks that are easy to follow. Share your
 We are using **Hedera’s testnet** to make a decentralized chatroom. Hedera is a decentralized public network that utilizes the Hashgraph consensus algorithm to overcome the traditional limitations of blockchain and allow one to create the next era of fast, fair, and secure applications.
 
 ## 🤝 Most Creative Use of GitHub
-- Using GitHub projects for effectively and efficiently managing the workflow of all the features of our project
-![Github Projects](https://user-images.githubusercontent.com/54859521/158055559-e50c7782-d45f-498e-9782-2b51a3a03124.png)
+- Using GitHub issues for managing the tasks at hand and assigning it to the responsible person, we were able to remotely collaborate with each other smoothly. 
+![image](https://user-images.githubusercontent.com/54859521/158062099-aff0a881-d143-4e12-914b-052baa6f09eb.png)
 
+- Using PRs, we were able to maintain a Clean and Meaningful Git history and using Code reviews, were able to maintain the quality of the software.
+![image](https://user-images.githubusercontent.com/54859521/158062400-671e6c67-2a73-4c75-9f5f-7a3442b2c34c.png)
+
+- Using GitHub projects we were able to effectively and efficiently manage the workflow of all the features of our project.
+![Github Projects](https://user-images.githubusercontent.com/54859521/158055559-e50c7782-d45f-498e-9782-2b51a3a03124.png)
 
 ## 🌐 Best Domain Name from GoDaddy Registry [APAC Only]
 
