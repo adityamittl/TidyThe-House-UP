@@ -1,0 +1,11 @@
+Model Information:
+* title:	Smart Home Interior Floor Plan
+* source:	https://sketchfab.com/3d-models/smart-home-interior-floor-plan-e5e490ebe0554422a99e945126642b24
+* author:	Boxy Construction (https://sketchfab.com/boxyconstruction)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Smart Home Interior Floor Plan" (https://sketchfab.com/3d-models/smart-home-interior-floor-plan-e5e490ebe0554422a99e945126642b24) by Boxy Construction (https://sketchfab.com/boxyconstruction) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
