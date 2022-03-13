@@ -1,23 +1,4 @@
-<html>
-
-<head>
-    <title>Add Tasks | Tidy The House Up</title>
-    <link rel="stylesheet" href="./styles/tasks.css">
-    </link>
-    <script src="./script/tasks.js"></script>
-</head>
-
-<body>
-
-    <div id="addTodoListDiv">
-        <input id="addTodoListInput" class="comment">
-        <button id="addTodoListButton" class="btn-save">Add new to-do list</button>
-    </div>
-
-    <div id="root"></div>
-
-    <script>
-        let root = document.getElementById("root");
+let root = document.getElementById("root");
 
 
 class todoList{
@@ -299,9 +280,3 @@ let todoList3 = new todoList(root);
 todoList1.input.value = "asdasds";
 todoList1.addToDo();
 
-
-    </script>
-
-</body>
-
-</html>

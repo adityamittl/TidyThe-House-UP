@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
     <link rel="stylesheet" href="./styles/tasks.css">
+    <script src="./script/tasks.js"></script>
 
 </head>
 
@@ -58,9 +59,41 @@
         </ul>
     </div>
     <section>
-        <model-viewer src="./assets/3Dmodel/smart_home_interior_floor_plan/scene.gltf" alt="VR Headset" auto-rotate
-            camera-controls style="height: 90vh; width: 90vw; background-color: #E4E9F7;"></model-viewer>
+        <h1 class="heading">Add tasks</h1>
+
+        <button class="trigger">Add tasks</button>
+        <div class="modal" style="z-index: 5;">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <iframe src="./addTasks.html" title="description"></iframe>
+            </div>
+        </div>
+        <model-viewer src="./assets/3Dmodel/smart_home_interior_floor_plan/scene.gltf" alt="" auto-rotate
+            camera-controls style="height: 80vh; width: 80vw; background-color: #E4E9F7; z-index: 2;"></model-viewer>
+
     </section>
+
+    <script>
+        const modal = document.querySelector(".modal");
+        const trigger = document.querySelector(".trigger");
+        const closeButton = document.querySelector(".close-button");
+
+        function toggleModal() {
+            modal.classList.toggle("show-modal");
+        }
+
+        function windowOnClick(event) {
+            if (event.target === modal) {
+                toggleModal();
+            }
+        }
+
+        trigger.addEventListener("click", toggleModal);
+        closeButton.addEventListener("click", toggleModal);
+        window.addEventListener("click", windowOnClick);
+    </script>
+
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@2.2.1/src/js.cookie.min.js"></script>
